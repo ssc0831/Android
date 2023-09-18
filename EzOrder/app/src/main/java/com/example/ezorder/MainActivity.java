@@ -73,8 +73,8 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
 
         //네이버 지도
         mapView = findViewById(R.id.map_view);
-        mapView.onCreate(savedInstanceState);
-        mapView.getMapAsync(this);
+
+
 
         txtName = findViewById(R.id.txtName);
         ivShop = findViewById(R.id.ivShop);
@@ -99,8 +99,9 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                             startActivity(intent);
                         }
                     });
-
                 }
+                mapView.onCreate(savedInstanceState);
+                mapView.getMapAsync(MainActivity.this);
             }
 
             @Override
