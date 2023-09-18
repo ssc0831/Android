@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TestActivity">
+
+    <Button
+        android:id="@+id/testgobtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="가게1로가기"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/testgo2btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="가게2로가기"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/testgobtn" />
+
+    <Button
+        android:id="@+id/tokenbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="토큰받아오기"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/testgo2btn" />
+
+    <Button
+        android:id="@+id/fcmtest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="fcm전송테스트"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tokenbtn" />
+</androidx.constraintlayout.widget.ConstraintLayout>

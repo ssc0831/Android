@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CafeManager</string>
+    <string name="msg_token_fmt" translatable="false">토큰 : %s</string>
+    <!--채널-->
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="default_notification_channel_name" translatable="true">Management</string>
+    <string name="fcm_message">EZ오더</string>
+</resources>

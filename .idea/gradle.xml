@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="jbr-17" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/app01" />
+            <option value="$PROJECT_DIR$/myapp02" />
+            <option value="$PROJECT_DIR$/myapp03" />
+            <option value="$PROJECT_DIR$/myapp04" />
+            <option value="$PROJECT_DIR$/myapp05" />
+            <option value="$PROJECT_DIR$/myapp06" />
+            <option value="$PROJECT_DIR$/myapp07" />
+            <option value="$PROJECT_DIR$/myapp08" />
+            <option value="$PROJECT_DIR$/myapp09" />
+            <option value="$PROJECT_DIR$/myapp10_db" />
+            <option value="$PROJECT_DIR$/myapp11" />
+            <option value="$PROJECT_DIR$/myapp12" />
+            <option value="$PROJECT_DIR$/myapp12_draw" />
+            <option value="$PROJECT_DIR$/myapp12_navi" />
+            <option value="$PROJECT_DIR$/myapp13" />
+            <option value="$PROJECT_DIR$/myapp14" />
+            <option value="$PROJECT_DIR$/myapp15" />
+            <option value="$PROJECT_DIR$/myapp16" />
+            <option value="$PROJECT_DIR$/myapp17_map" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

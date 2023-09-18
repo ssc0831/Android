@@ -1,0 +1,32 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color teel_700
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable q
+drawable r
+id btnAdd
+id btnDiv
+id btnHomepage
+id btnMod
+id btnMul
+id btnSub
+id btnToast
+id edit1
+id ivAndroid
+id num1
+id num2
+id rdoOreo
+id rdoPie
+id rg
+id textResult
+id textView1
+layout activity_main
+layout activity_main2
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.MyApplication
+style Theme.MyApplication

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity6"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/editNum1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="숫자1"/>
+    <EditText
+        android:id="@+id/editNum2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="숫자2"/>
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rdoAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="더하기"/>
+        <RadioButton
+            android:id="@+id/rdoSub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="빼기"/>
+        <RadioButton
+            android:id="@+id/rdoMul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="곱하기"/>
+        <RadioButton
+            android:id="@+id/rdoDiv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="나누기"/>
+    </RadioGroup>
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="계산하기"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="계산결과 : "/>
+        <TextView
+            android:id="@+id/resultText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>
