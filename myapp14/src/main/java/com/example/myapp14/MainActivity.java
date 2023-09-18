@@ -68,8 +68,8 @@ public class MainActivity extends AppCompatActivity {
                 EditText editName = dialogView.findViewById(R.id.editName);
                 EditText editTel = dialogView.findViewById(R.id.editTel);
 
-                editName.setText(phone.getName().toString());
-                editTel.setText(phone.getTel().toString());
+                editName.setText(phone.getName());
+                editTel.setText(phone.getTel());
 
                 AlertDialog.Builder alertDialog = new AlertDialog.Builder(MainActivity.this);
                 alertDialog.setTitle("수정하기");

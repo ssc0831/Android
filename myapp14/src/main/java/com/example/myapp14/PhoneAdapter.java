@@ -12,7 +12,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.List;
 
 public class PhoneAdapter extends RecyclerView.Adapter<PhoneAdapter.MyViewHolder> {
-    private List<Phone> phoneList;
+    private final List<Phone> phoneList;
 
     //클릭interface
     public interface OnItemClickListener{
