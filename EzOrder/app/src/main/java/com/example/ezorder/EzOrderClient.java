@@ -28,7 +28,7 @@ public class EzOrderClient {
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
         //서비스 추가
-        //orderSerive : 가게에서 주문 관련된 서비스(order/OrderService)
+        //orderService : 가게에서 주문 관련된 서비스(order/OrderService)
         orderService = retrofit.create(OrderService.class);
         menuService = retrofit.create(MenuService.class);
         memberService = retrofit.create(MemberService.class);
